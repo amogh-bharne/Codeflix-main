@@ -1,0 +1,57 @@
+.main {
+    background-image: url("../assets/hero-bg.jpg");
+    height: 93vh;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    font-size: 3rem;
+    color: #edb707;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.buttons {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button1 {
+    background-color: #edb707;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+}
+
+.button2 {
+    background-color: #fff;
+    color: #edb707;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+}
+
+@media only screen and (max-width:1200px) {
+
+    .buttons {
+        padding: 0 200px;
+
+    }
+}

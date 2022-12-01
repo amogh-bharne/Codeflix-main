@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+body {
+  margin: 0;
+  font-family: "poppins", BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/hero-bg.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.typed {
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation-iteration-count: infinite;
+  animation: type 10s infinite; 
+}
+.typed-cursor {
+  color: orange;
+  animation: blink 3s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.text-input {
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.projectForm {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+}
